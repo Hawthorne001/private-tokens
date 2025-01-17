@@ -33,6 +33,18 @@
 		"name": "Amazon Ads issuer",
 		"contact": "amazon-ads-pst-issuer@amazon.com",
 		"endpoint": "https://www.amazon.com/tt/k",
-		"expiry": "1727236800"
+		"expiry": "1741752000"
+	},
+	"https://pst-issuer.clearsale.com.br": {
+		"name": "Clearsale Anti Fraud",
+		"contact": "suporte.behavior@clear.sale",
+		"endpoint": "https://pst-issuer.clearsale.com.br/.well-known/private-state-token/key-commitment",
+		"expiry": "1733436800"
+	},
+	"https://private-state-token-issuer.glitch.me/": {
+		"name": "Privacy Sandbox Demo Issuer",
+		"contact": "privacy-sandbox-devrel@google.com",
+		"endpoint": "https://private-state-token-issuer.glitch.me/.well-known/trust-token/key-commitment",
+		"expiry": "1752768000"
 	}
 }
